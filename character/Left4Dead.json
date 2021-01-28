@@ -1,0 +1,117 @@
+[
+    {
+        "playername":"francis",
+        "class":"hell's legion",
+        "level":"100",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["pump shutgun","auto shutgun"],
+        "allied":["louis","bill","francis","zoey"],
+        "rival":["hunter","smoker","boomer","spitter","charger","witch","tanker"]
+    },
+    {
+        "playername":"zoey",
+        "class":"chell",
+        "level":"100",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["hunting refile"],
+        "allied":["louis","bill","francis","zoey"],
+        "rival":["hunter","smoker","boomer","spitter","charger","witch","tanker"]
+    },
+    {
+        "playername":"bill",
+        "class":"U.S army",
+        "level":"100",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["assault refile"],
+        "allied":["louis","bill","francis","zoey"],
+        "rival":["hunter","smoker","boomer","spitter","charger","witch","tanker"]
+    },
+    {
+        "playername":"Louis",
+        "class":"lamp bomb",
+        "level":"50",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["submachin gun","dual pistol","assault refile"],
+        "allied":["louis","bill","francis","zoey"],
+        "rival":["hunter","smoker","boomer","spitter","charger","witch","tanker"]
+    },
+
+
+         //zombies//
+
+
+    {
+        "playername":"hunter",
+        "class":"leaps",
+        "level":"50",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["mele deal"],
+        "allied":["hunter","smoker","boomer","spitter","charger","witch","tanker"],
+        "rival":["louis","bill","francis","zoey"]
+    },
+    {
+        "playername":"smoker",
+        "class":"tongue",
+        "level":"50",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["shoot long tongue"],
+        "allied":["hunter","smoker","boomer","spitter","charger","witch","tanker"],
+        "rival":["louis","bill","francis","zoey"]
+    },
+    {
+        "playername":"boomer",
+        "class":"blind",
+        "level":"50",
+        "health":"50",
+        "health max":"50",
+        "status":"strong",
+        "skills":["pukes"],
+        "allied":["hunter","smoker","boomer","spitter","charger","witch","tanker"],
+        "rival":["louis","bill","francis","zoey"]
+    }, 
+    {
+        "playername":"spitter",
+        "class":"toxic",
+        "level":"50",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["pukes toxic"],
+        "allied":["hunter","smoker","boomer","spitter","charger","witch","tanker"],
+        "rival":["louis","bill","francis","zoey"]
+    },
+    {
+        "playername":"witch",
+        "class":"move",
+        "level":"50",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["do not disturb"],
+        "allied":["hunter","smoker","boomer","spitter","charger","witch","tanker"],
+        "rival":["louis","bill","francis","zoey"]
+    }, 
+    {
+        "playername":"tanker",
+        "class":"gigantic",
+        "level":"50",
+        "health":"100",
+        "health max":"100",
+        "status":"strong",
+        "skills":["throw rocks"],
+        "allied":["hunter","smoker","boomer","spitter","charger","witch","tanker"],
+        "rival":["louis","bill","francis","zoey"]
+    }
+]

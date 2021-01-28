@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgimage{
+    background-image: url('l4dbg.jpg');
+    background-size: 100% 110%;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+
+.leftmenu h4{
+    padding-left: 70px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+}
+
+.rightmenu{
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+.rightmenu ul{
+    margin-left: 200px;
+}
+
+.rightmenu ul li{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.rightmenu ul li:hover{
+    color: tomato;
+}
+
+.scroll-box{
+    background-color: rgba(196, 199, 201, 0.226);
+    width: 80%;
+    height: 85vh;
+    overflow: scroll;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    border:2px solid white;
+}
+
+.video {
+    position: absolute;
+    top: 65%;
+    border: 2px solid white;
+    left: 26%;
+}
+
+.discription{
+    font-size: 5px;
+}
+
+a {
+    color: cyan;
+    font-size: medium;
+}
+
+a:hover{
+    color: white;
+}
+
+h2{
+    color: white;
+    font-size: 15px;
+}
+
+h3{
+    color: white;
+}
+
+.ci1{
+    position: absolute;
+    top: 5%;
+    color: white;
+    font-size: 10px;
+    left: 50px;
+}
+
+.ci2{
+    position: absolute;
+    top: 20%;
+    color: white;
+    font-size: 10px;
+    left: 50px;
+}
+
+.game-info{
+    position: absolute;
+    top: 30%;
+    color: white;
+    font-size: 20px;
+    left: 40%;
+    background: linear-gradient(45deg, black, transparent);
+}

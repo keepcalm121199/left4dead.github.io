@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+    <title>left4dead_character</title>
+    <link href="l4dcharater.css" type="text/css" rel="stylesheet">
+    <script src="jquery-3.4.1.min.js"></script>
+  <script src="l4dcharacter.js"></script>
+</head>
+<body>
+
+    <div class="bgimage">
+        <div class="menu">
+            <div class="leftmenu">
+                <h4>Left4Dead</h4>
+            </div>
+            <div class="rightmenu">
+                <ul>
+                    <a href="left4dead.html"><li id="firstlist">HOME</li></a>
+                    <a href="l4dcharacter.html"><li>character</li></a>
+                    <a href="l4daboutus.html"><li>about us</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="scroll-box">
+            <div class="characters">
+
+
+
+                    <div class="row">
+  
+                        <div class="column">
+                          <img src="character/francis.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                          <h1> "Playername":"francis",</h1>
+
+                          <img src="character/zoey.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                          <h1> "Playername":"Zoey",</h1>
+
+                          <img src="character/bill.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                          <h1> "Playername":"Bill",</h1>
+
+                          <img src="character/louis.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                          <h1> "Playername":"louis",</h1>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      
+                      <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">×</span>
+                        <div class="modal-content">
+                      
+                          <div class="mySlides" style="display: block;">
+                            <div class="numbertext">1 / 4</div>
+                            <center><img src="character/francis.png" style="width:30%"></center>
+                          </div>
+
+                          <div class="mySlides" style="display: block;">
+                            <div class="numbertext">2 / 4</div>
+                            <center><img src="character/zoey.png" style="width:30%"></center>
+                          </div>
+
+                          <div class="mySlides" style="display: block;">
+                            <div class="numbertext">3 / 4</div>
+                            <center><img src="character/bill.png" style="width:30%"></center>
+                          </div>
+
+                          <div class="mySlides" style="display: block;">
+                            <div class="numbertext">4 / 4</div>
+                             <center><img src="character/louis.png" style="width:30%"></center>
+                          </div>
+                      
+                        
+                          
+                          <a class="prev" onclick="plusSlides(-1)">❮</a>
+                          <a class="next" onclick="plusSlides(1)">❯</a>
+                      
+                          <div class="caption-container">
+                            <p id="caption">Left 4 Dead characters</p>
+                          </div>
+                      
+                      
+                          <div class="column">
+                            <img class="demo cursor active" src="character/francis.png" style="width:100%" onclick="currentSlide(1)" alt="Left 4 Dead characters">
+                          </div>
+
+                          <div class="column">
+                            <img class="demo cursor active" src="character/zoey.png" style="width:100%" onclick="currentSlide(2)" alt="Left 4 Dead characters">
+                          </div>
+
+                          <div class="column">
+                            <img class="demo cursor active" src="character/bill.png" style="width:100%" onclick="currentSlide(3)" alt="Left 4 Dead characters">
+                          </div>
+
+                          <div class="column">
+                            <img class="demo cursor active" src="character/louis.png" style="width:100%" onclick="currentSlide(4)" alt="Left 4 Dead characters">
+                          </div>
+
+
+            </div>
+        </div>  
+    </div>
+</body>
+<html>
